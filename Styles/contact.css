@@ -51,7 +51,7 @@
     padding: 14px;
     border: none;
     border-radius: 6px;
-    background-color: #1d4ed8;
+    background-color: rgb(29, 78, 216);
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -59,7 +59,7 @@
 }
 
 .send-btn:hover {
-    background-color: #1e40af;
+    background-color: rgb(30, 64, 175);
 }
 
 

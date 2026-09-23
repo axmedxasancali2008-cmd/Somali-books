@@ -2,7 +2,35 @@
     padding: 60px 7%;
     background-color: rgb(239, 246, 253);
 }
+.book-search {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    display: flex;
+}
 
+.book-search input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #cbd5e1;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 15px;
+}
+
+.book-search button {
+    width: 55px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(29, 78, 216);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.book-search input:focus {
+    outline: none;
+    border-color: rgb(29, 78, 216);
+}
 .books-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

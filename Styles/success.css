@@ -1,20 +1,19 @@
 .success-section {
-min-height: 70vh;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 60px 20px;
-background-color: #F8F5EF;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: rgb(248, 245, 239);
 }
 
 .success-card {
-width: 100%;
-max-width: 600px;
-padding: 50px 30px;
-text-align: center;
-background-color: white;
-border-radius: 10px;
-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .success-icon {
@@ -25,26 +24,26 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #163A32;
+    background-color: rgb(22, 58, 50);
     color: white;
     font-size: 32px;
 }
 
 .success-card h1 {
 margin-bottom: 10px;
-color: #C89B3C;
+color: rgb(200, 155, 60);
 font-size: 36px;
 }
 
 .success-card h2 {
 margin-bottom: 15px;
-color: #163A32;
+color: rgb(22, 58, 50);
 font-size: 24px;
 }
 
 .success-card p {
 margin-bottom: 30px;
-color: #263238;
+color: rgb(38, 50, 56);
 font-size: 16px;
 line-height: 1.7;
 }
@@ -52,7 +51,7 @@ line-height: 1.7;
 .home-btn {
 display: inline-block;
 padding: 12px 25px;
-background-color: #163A32;
+background-color: rgb(22, 58, 50);
 color: white;
 border-radius: 5px;
 text-decoration: none;
