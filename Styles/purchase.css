@@ -1,0 +1,78 @@
+
+.order-section {
+    padding: 70px 30px;
+}
+
+.order-form {
+    max-width: 650px;
+    margin: auto;
+    padding: 35px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 12px;
+    background-color: rgb(248, 250, 252);
+}
+
+.order-form h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    margin-bottom: 18px;
+    padding: 13px;
+    border: 1px solid rgb(203, 213, 225);
+    border-radius: 6px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.order-form textarea {
+    resize: vertical;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    outline: none;
+    border-color: rgb(29, 78, 216);
+}
+
+.order-btn {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(29, 78, 216);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: rgb(30, 64, 175);
+}
+
+@media (max-width: 600px) {
+    .order-section {
+        padding: 50px 20px;
+    }
+    .order-form {
+        padding: 25px 20px;
+    }
+
+}

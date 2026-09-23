@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali Books | Order Book</title>
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Styles/purchase.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="../index.html">
+                    <img 
+                        src="../uploads/logo-removebg-preview.png" 
+                        alt="Somali Books Logo"
+                    >
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./books.html">Books</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="menu-btn">
+                    <img 
+                        src="../uploads/bars-solid-full.svg" 
+                        alt="Menu"
+                    >
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="order-section">
+        <div class="order-form">
+            <h2>Form-ka dalabka buuga</h2>
+            <form action="./success.html" method="get">
+                <label for="book">Dooro Buug</label>
+                <select id="book" name="book" required>
+                    <option value="">Dooro Buug</option>
+                    <option value="Hawaale Warran">
+                        Hawaale Warran - $10
+                    </option>
+                    <option value="Tashiil">
+                        Tashiil - $12
+                    </option>
+                    <option value="Kasbasho">
+                        Kasbasho - $8
+                    </option>
+                    <option value="Bad Macaan">
+                        Bad Macaan - $10
+                    </option>
+                    <option value="Al Baqara">
+                        Al Baqara - $9
+                    </option>
+                    <option value="Caqliga Macmalka">
+                        Caqliga Macmalka - $10
+                    </option>
+                    <option value="Maanfur">
+                        Maanfur - $14
+                    </option>
+                    <option value="Mucjisada aroortii">
+                        Mucjisada Aroortii - $12
+                    </option>
+                    <option value="Mugga Maamul Wanaaga">
+                        Mugga Maamul Wanaaga - $9
+                    </option>
+                    <option value="jiraalkay">
+                        jiraalkay - $11
+                    </option>
+                    <option value="Xalxidhaalaha Barbaroosa">
+                        Xalxidhaalaha Barbaroosa - $10
+                    </option>
+                    <option value="Midhiftire">
+                        Midhiftire - $13
+                    </option>
+                </select>
+                <label for="name">Magaca</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Qor magacaaga oo dhamaystiran"
+                    required
+                >
+                <label for="phone">Number-ka</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Geli Number-kaaga"
+                    required
+                >
+                <label for="address">Goobta la gaarsiinaayo</label>
+                <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Geli Ciwaan-ka"
+                    required
+                >
+                <label for="quantity">Tirada</label>
+                <input
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    min="1"
+                    value="1"
+                    required
+                >
+                <label for="message">Warbixin dheeraad ah</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="ku qor halkan warbxin dheeraad ah..."
+                ></textarea>
+                <button type="submit" class="order-btn">
+                    Dir
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+    <section class="footer">
+            <div class="description">
+                <h2>Somali Books</h2>
+                <p>
+                    Somali Books waa madal loogu talagalay in laga
+                    helo laguna akhriyo buugaagta ku qoran Af-Soomaali
+                    iyo kuwa lagu turjumay Af-Soomaali. Waxaan taageernaa
+                    akhriska, aqoonta iyo suugaanta Soomaaliyeed.
+                </p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./books.html">Books</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: somalibooks@gmail.com</p>
+                <p>Mogadishu, Somalia</p>
+            </div>
+        </section>
+
+        <div class="footer-bottom">
+            <p>© 2026 Somali Books. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/14qLjzrGoaF/"><i class="fa-brands fa-facebook-f"></i> </a>
+                <a href="https://x.com/AxmedXasan73296"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/ahmedhassan.ali.33886?stkn=MXI5eDBrMzh6ZTVkNg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/axmed-xasan-296719392?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
